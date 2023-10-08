@@ -67,3 +67,4 @@ async def on_app_command(ctx: InteractionContext):
 
 if __name__ == '__main__':
     client.run(BOT_TOKEN if not client.beta else BOT_TOKEN_BETA)
+    
